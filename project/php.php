@@ -19,12 +19,12 @@
     </div>
    <style>
     .fig {
-    display: block; /* Блочный элемент (для старых браузеров) */
-    text-align: center; /* Выравнивание по центру */
-    font-style: italic; /* Курсивное начертание */
-    margin-top: 0; /* Отступ сверху */
-    margin-bottom: 5px; /* Отступ снизу */
-    color: #666; /* Цвет подрисуночной подписи */
+    display: block; /* Block element (for older browsers) */
+    text-align: center; /* Center alignment */
+    font-style: italic; /* Italic inscription */
+    margin-top: 0; /* Top indent */
+    margin-bottom: 5px; /* Bottom padding */
+    color: #666; /* Caption color */
    }
     .left {
   text-align: left;
@@ -54,19 +54,19 @@
     font-size: 16px;
 }
    body {
-     background-color: whitesmoke; /* Цвет фона */
+     background-color: whitesmoke; /* background color */
            /* background-image: url('https://rgdb.ru/images/News_main/2021/09/24/01/gazety.jpg'); 
             background-repeat: no-repeat;
             background-size: 1200px 800px;
             background-position: center;*/
             
    }
-   h1 { Courier New , monospace; }
+   h1 { Courier New,  monospace; }
 h1 {
-    color: #2F4F4F; /* Цвет текста */
+    color: #2F4F4F; /* text color */
 }
 h1 {
-    text-align: center; /* Выравнивание текста по центру */
+    text-align: center; /* Center text alignment */
 }
 .btn {
   width: 150px;
@@ -117,7 +117,7 @@ h1 {
 .btn:active .icon {
   transform: scale(0.85);
 }
-/* Кнопка выпадающего списка */
+/* Dropdown button */
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -126,13 +126,13 @@ h1 {
   border: none;
 }
 
-/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+/* Container <div> - required to contain the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Выпадающее содержимое (скрыто по умолчанию) */
+/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -142,7 +142,7 @@ h1 {
   z-index: 1;
 }
 
-/* Ссылки внутри выпадающего списка */
+/* Links inside the dropdown list */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -150,13 +150,13 @@ h1 {
   display: block;
 }
 
-/* Изменение цвета выпадающих ссылок при наведении курсора */
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
-/* Показать выпадающее меню при наведении курсора */
+/* Show dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+/* Change the background color of the dropdown button when the contents of the dropdown are displayed */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
  
 .git{

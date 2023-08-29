@@ -12,8 +12,8 @@
             text-align: center;
         }
         body{
-            background: #333; /* Цвет фона */
-            color: #fc0; /* Цвет текста */
+            background: #333; /* background color */
+            color: #fc0; /* text color*/
         }
         h1{
             text-align: center;
